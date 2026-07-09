@@ -4,7 +4,6 @@
 <p align="center">
   <img src="banner.svg" alt="Alejo Martinez Banner" width="100%" />
 </p>
-
 <br>
 
 Hello! I'm Alejo Martinez, a passionate Full-Stack developer focused on backend architectures, systems automation, and building efficient software solutions. This is my space where I share my journey in the world of web development and programming.
