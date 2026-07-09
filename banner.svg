@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="100%">
+  <style>
+    @keyframes matrixRain {
+      0% { transform: translateY(-80px); opacity: 0; }
+      10% { opacity: 0.5; }
+      90% { opacity: 0.5; }
+      100% { transform: translateY(140px); opacity: 0; }
+    }
+    @keyframes textSwitch1 {
+      0%, 30%, 100% { opacity: 1; filter: blur(0px); }
+      33%, 97% { opacity: 0; filter: blur(4px); }
+    }
+    @keyframes textSwitch2 {
+      0%, 33%, 66%, 100% { opacity: 0; filter: blur(4px); }
+      36%, 63% { opacity: 1; filter: blur(0px); }
+    }
+    @keyframes textSwitch3 {
+      0%, 66%, 96% { opacity: 0; filter: blur(4px); }
+      69%, 93% { opacity: 1; filter: blur(0px); }
+    }
+    .matrix-code { font-family: 'Courier New', monospace; font-size: 12px; fill: #00FF41; letter-spacing: 3px; writing-mode: vertical-rl; text-orientation: upright; font-weight: bold; }
+    .r1 { animation: matrixRain 3s linear infinite; }
+    .r2 { animation: matrixRain 2.2s linear infinite; animation-delay: 0.6s; }
+    .r3 { animation: matrixRain 3.8s linear infinite; animation-delay: 1.3s; }
+    .main-title { font-family: 'Inter', system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 34px; fill: #FFFFFF; text-anchor: middle; letter-spacing: 2px; }
+    .t1 { animation: textSwitch1 9s ease-in-out infinite; }
+    .t2 { animation: textSwitch2 9s ease-in-out infinite; }
+    .t3 { animation: textSwitch3 9s ease-in-out infinite; }
+  </style>
+  
+  <!-- Fondo Negro Sólido -->
+  <rect width="900" height="140" fill="#0D0D0D" />
+  
+  <!-- Lluvia de código Matrix -->
+  <g class="matrix-code r1">
+    <text x="35" y="-50">01101010</text> <text x="160" y="-30">10011100</text>
+    <text x="320" y="-60">00110101</text> <text x="540" y="-40">11010011</text>
+    <text x="700" y="-70">01011010</text> <text x="850" y="-20">10110001</text>
+  </g>
+  <g class="matrix-code r2">
+    <text x="90" y="-40">11001001</text> <text x="230" y="-60">01101101</text>
+    <text x="410" y="-30">10100110</text> <text x="610" y="-50">00111001</text>
+    <text x="770" y="-20">11001011</text> 
+  </g>
+  <g class="matrix-code r3">
+    <text x="120" y="-20">01011011</text> <text x="280" y="-50">11001100</text>
+    <text x="480" y="-70">00110011</text> <text x="660" y="-30">10101010</text>
+    <text x="810" y="-40">01110001</text>
+  </g>
+
+  <!-- Emojis Fijos -->
+  <text x="50" y="84" font-size="34">💻</text>
+  <text x="810" y="84" font-size="34">🚀</text>
+
+  <!-- Textos Centrales -->
+  <text x="450" y="84" class="main-title t1">ALEJO MARTINEZ</text>
+  <text x="450" y="84" class="main-title t2">FULL-STACK DEVELOPER</text>
+  <text x="450" y="84" class="main-title t3">AUTOMATION &amp; SCRIPTING</text>
+</svg>
