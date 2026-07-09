@@ -31,6 +31,9 @@ In this repository, you'll find the presentation of my profile, where I showcase
 
 If you're interested in exploring my progress in the world of Full-Stack development and automation, I invite you to take a look at some of my most relevant repositories:
 
+- 📱 **[Tarjetitas App](https://github.com/AlejoMartinez1995/Tarjetitas)**: A progressive web application (PWA) built to optimize financial expense tracking, focused on data independence and efficient local structures.
+- 🔠 **[Scrabble Project](https://github.com/AlejoMartinez1995/Scrabble)**: A backend implementation of the classic board game, showcasing core programming logic, word validation algorithms, and clean code principles.
+
 <br>
 
 ## Automation, Scripting & Development ⚙️
@@ -91,6 +94,8 @@ En este repositorio encontrarás la presentación de mi perfil, donde muestro mi
 
 Si estás interesado en explorar mi progreso en el mundo del desarrollo Full-Stack y la automatización, te invito a echar un vistazo a algunos de mis repositorios más relevantes:
 
+- 📱 **[Tarjetitas App](https://github.com/AlejoMartinez1995/Tarjetitas)**: Aplicación web progresiva (PWA) desarrollada para optimizar el seguimiento de gastos, enfocada en la independencia de datos y estructuras locales eficientes.
+- 🔠 **[Proyecto Scrabble](https://github.com/AlejoMartinez1995/Scrabble)**: Implementación backend del clásico juego de palabras, enfocada en el desarrollo de lógica pura, algoritmos de validación y principios de diseño limpio.
 <br>
 
 ## Automatización, Scripting y Desarrollo ⚙️
